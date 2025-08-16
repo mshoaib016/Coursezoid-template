@@ -57,7 +57,7 @@ body {
   gap: 20px;
 }
 
-h3 {
+.right-part h3 {
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
@@ -66,7 +66,7 @@ h3 {
   margin-right: 28px;
 }
 
-button {
+.right-part button {
   background-color: #23a6f0;
   margin-right: 15px;
   height: 52px;
@@ -109,7 +109,7 @@ button {
   padding-left: 143px;
 }
 
-h5 {
+.main-content h5 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -118,7 +118,7 @@ h5 {
   padding-top: 70px;
 }
 
-h1 {
+.main-content h1 {
   color: #ffffff;
   font-size: 58px;
   font-weight: bolder;
@@ -129,7 +129,7 @@ h1 {
   width: 542px;
 }
 
-h4 {
+.main-content h4 {
   color: #ffffff;
   height: 60px;
   width: 376px;
