@@ -109,7 +109,7 @@ body {
   padding-left: 143px;
 }
 
-.main-content button{
+.main-content button {
   background-color: #23a6f0;
   margin-right: 15px;
   height: 52px;
@@ -123,7 +123,7 @@ body {
   letter-spacing: 0.2px;
 }
 
-.main-content button:hover{
+.main-content button:hover {
   background-color: #0b7dda;
 }
 
@@ -346,9 +346,16 @@ body {
   padding: 0%;
 }
 
-.cards-content h6{
-  margin-top: -120px;
-  
+.cards-content i {
+  color: #737373;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.cards-content h6 {
+  color: #737373;
+  margin-top: -172px;
+  margin-left: -180px;
 }
 
 .cards-content h4 {
@@ -383,6 +390,18 @@ body {
   justify-content: flex-start;
   margin-left: 22px;
   margin-top: -8px;
+}
+
+.cards-content i {
+  color: #737373;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.cards-content h6 {
+  color: #737373;
+  margin-top: -172px;
+  margin-left: -180px;
 }
 
 .cards img {
