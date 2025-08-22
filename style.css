@@ -80,7 +80,7 @@ body {
   letter-spacing: 0.2px;
 }
 
-.right-part button:hover{
+.right-part button:hover {
   background-color: #0b7dda;
 }
 
@@ -101,12 +101,30 @@ body {
   padding-left: 40px;
 }
 
-.main-content a:hover{
+.main-content a:hover {
   background-color: whitesmoke;
 }
 
 .main-content {
   padding-left: 143px;
+}
+
+.main-content button{
+  background-color: #23a6f0;
+  margin-right: 15px;
+  height: 52px;
+  width: 137px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: monospace;
+  letter-spacing: 0.2px;
+}
+
+.main-content button:hover{
+  background-color: #0b7dda;
 }
 
 .main-content h5 {
@@ -156,9 +174,9 @@ body {
   box-shadow: 0px 6px 20px rgb(0, 0, 0, 0.2);
 }
 
-.card:hover{
-   transform: translateY(-5px);
-   background-color: #f3f3f3;
+.card:hover {
+  transform: translateY(-5px);
+  background-color: #f3f3f3;
 }
 
 .card img {
@@ -314,7 +332,8 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   padding-top: 80px;
-  gap: 20px;
+  padding-bottom: 150px;
+  gap: 17px;
 }
 
 .cards {
@@ -327,8 +346,42 @@ body {
   padding: 0%;
 }
 
-.card-containet h4 {
-  color: black;
+.cards-content h6{
+  
+}
+
+.cards-content h4 {
+  color: #23a6f0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin-left: 20px;
+}
+
+.cards-content h3 {
+  color: #252b42;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-left: 20px;
+  margin-top: -8px;
+}
+
+.cards-content p {
+  color: #737373;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  text-align: start;
+  justify-content: flex-start;
+  margin-left: 22px;
+  margin-top: -8px;
 }
 
 .cards img {
@@ -390,8 +443,8 @@ body {
   width: 128px;
 }
 
-.profile-imeages img:hover{
-   transform: translateY(-5px);
+.profile-imeages img:hover {
+  transform: translateY(-5px);
 }
 
 .profile-content {
