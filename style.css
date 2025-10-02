@@ -358,6 +358,26 @@ body {
   margin-left: -180px;
 }
 
+.cards-content h5 {
+  color: #bdbdbd;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  margin-left: 25px;
+  margin-top: -15px;
+}
+
+.cards-content h3 {
+  color: #40bb15;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
 .cards-content h4 {
   color: #23a6f0;
   font-family: Arial, Helvetica, sans-serif;
