@@ -643,9 +643,71 @@ body {
   background-color: #0b7dda;
 }
 
-.footer-content img {
-  width: 1351px;
-  height: 414px;
-  margin-bottom: -4px;
-  margin-top: 50px;
+.footer-container {
+  position: relative;
+}
+
+.footer-text {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: #ffffff;
+}
+
+.footer-text h2 {
+  height: 32;
+  width: 154;
+  opacity: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+
+.footer-text i {
+  color: #23a6f0;
+  width: 23;
+  height: 23;
+  left: 0.5px;
+  opacity: 1;
+  margin: 10px;
+}
+
+.footer-text p {
+  width: 211;
+  height: 40;
+  opacity: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+
+.footer-content1{
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  color: #ffffff;
+}
+
+.footer-content2{
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  color: #ffffff;
+}
+
+.footer-content3{
+  position: absolute;
+  top: 5%;
+  left: 80%;
+  color: #ffffff;
+}
+
+.bottom-bar {
+  position: absolute;
+  top: 50%;
+  
 }
