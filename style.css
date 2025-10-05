@@ -31,7 +31,7 @@ body {
   width: 145px;
   font-weight: 700;
   font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 32px;
   letter-spacing: 0.1px;
 }
@@ -47,7 +47,7 @@ body {
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   list-style: none;
 }
 
@@ -62,7 +62,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   display: inline-block;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-right: 28px;
 }
 
@@ -87,7 +87,7 @@ body {
 .main-content a {
   font-weight: 700;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
   line-height: 24px;
   letter-spacing: 0.2px;
@@ -128,7 +128,7 @@ body {
 }
 
 .main-content h5 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.1px;
@@ -151,7 +151,7 @@ body {
   color: #ffffff;
   height: 60px;
   width: 376px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -219,7 +219,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.2;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .background-content {
@@ -240,7 +240,7 @@ body {
   color: #252b42;
   height: 100px;
   width: 476px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   font-size: 40px;
   line-height: 50px;
@@ -251,7 +251,7 @@ body {
   color: #737373;
   height: 60px;
   width: 391px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   font-size: 14px;
   line-height: 20px;
@@ -264,7 +264,7 @@ body {
   text-decoration: none;
   font-weight: bolder;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 24px;
   letter-spacing: 0.2px;
 }
@@ -294,7 +294,7 @@ body {
   width: auto;
   font-weight: 700;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 24px;
   letter-spacing: 0.2px;
 }
@@ -308,7 +308,7 @@ body {
   width: auto;
   font: 700;
   font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 0.2px;
   margin-top: -20px;
 }
@@ -321,7 +321,7 @@ body {
   height: 40px;
   font-weight: 400;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 20px;
   letter-spacing: 0.2px;
   margin-top: -25px;
@@ -360,7 +360,7 @@ body {
 
 .cards-content h5 {
   color: #bdbdbd;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -371,7 +371,7 @@ body {
 
 .cards-content h3 {
   color: #40bb15;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -380,7 +380,7 @@ body {
 
 .cards-content h4 {
   color: #23a6f0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
@@ -390,7 +390,7 @@ body {
 
 .cards-content h3 {
   color: #252b42;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
@@ -401,7 +401,7 @@ body {
 
 .cards-content p {
   color: #737373;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -444,7 +444,7 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .profile-container h6 {
@@ -500,7 +500,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 2px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
@@ -528,7 +528,7 @@ body {
   color: #252b42;
   font-weight: 700px;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 24px;
   letter-spacing: 0.1px;
 }
@@ -537,7 +537,7 @@ body {
   color: #737373;
   font-weight: 700;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 24px;
   letter-spacing: 0.2px;
   margin-top: -10px;
@@ -553,7 +553,7 @@ body {
   color: #252b42;
   font-weight: 700px;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 24px;
   letter-spacing: 0.1px;
 }
@@ -562,7 +562,7 @@ body {
   color: #737373;
   font-weight: 700;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 24px;
   letter-spacing: 0.2px;
   margin-top: -10px;
@@ -577,7 +577,7 @@ body {
 }
 
 .last-container h5 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
@@ -586,7 +586,7 @@ body {
 
 .last-container h2 {
   color: #252b42;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 45px;
   line-height: 50px;
@@ -596,7 +596,7 @@ body {
 
 .last-container p {
   color: #737373;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -622,7 +622,7 @@ body {
   border-radius: 5px 0 0 5px;
   outline: none;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 
@@ -636,7 +636,7 @@ body {
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .subscribe-container button:hover {
@@ -652,7 +652,7 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 5rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .footer-container,
@@ -676,12 +676,27 @@ body {
 .footer-newsletter h2 {
   height: 32px;
   width: 154px;
-  opacity: 1;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.1px;
+}
+
+.footer-newsletter p{
+  padding-top: 15px;
+}
+
+.footer-content1 h2 {
+  margin-left: 40px;
+}
+
+.footer-content2 h2 {
+  margin-left: 40px;
+}
+
+.footer-content3 h2 {
+  margin-left: 40px;
 }
 
 .footer-newsletter i {
@@ -698,7 +713,7 @@ body {
   width: 211px;
   height: 40px;
   opacity: 1;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -715,4 +730,5 @@ body {
   font-size: 14px;
   font-weight: 700;
   text-align: center;
+  padding-top: 20px;
 }
