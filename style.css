@@ -678,24 +678,36 @@ body {
   width: 154px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 23px;
   line-height: 32px;
   letter-spacing: 0.1px;
+  margin-top: 80px;
 }
 
-.footer-newsletter p{
+.footer-newsletter p {
   padding-top: 15px;
 }
 
 .footer-content1 h2 {
+  margin-top: 80px;
   margin-left: 40px;
 }
 
+.list li a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
 .footer-content2 h2 {
+  margin-top: 80px;
   margin-left: 40px;
 }
 
 .footer-content3 h2 {
+  margin-top: 80px;
   margin-left: 40px;
 }
 
@@ -717,7 +729,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.1px;
 }
 
 .list li {
