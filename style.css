@@ -734,7 +734,7 @@ body {
 
 .list li {
   list-style-type: none;
-  padding-top: 20px;
+  margin-top: 17px;
 }
 
 .copyright {
@@ -742,5 +742,5 @@ body {
   font-size: 14px;
   font-weight: 700;
   text-align: center;
-  padding-top: 20px;
+  margin-bottom: 30px;
 }
