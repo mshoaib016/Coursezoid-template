@@ -3,6 +3,7 @@ body {
   margin: auto;
   box-sizing: border-box;
   background-image: url(/assets/background\ img.png);
+  font-family: "Montserrat", sans-serif;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -327,148 +328,33 @@ body {
   margin-top: -25px;
 }
 
-/* .Product-card {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-top: 80px;
-  padding-bottom: 150px;
-  gap: 17px;
-}
-
-.cards {
-  background-color: #ffffff;
-  width: 330px;
-  height: 678px;
-}
-
-.cards-content {
-  padding: 0%;
-}
-
-.cards-content i {
-  color: #737373;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-
-.cards-content h6 {
-  color: #737373;
-  margin-top: -172px;
-  margin-left: -180px;
-}
-
-.cards-content h5 {
-  color: #bdbdbd;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.1px;
-  margin-left: 25px;
-  margin-top: -15px;
-}
-
-.cards-content h3 {
-  color: #40bb15;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.1px;
-}
-
-.cards-content h4 {
-  color: #23a6f0;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.2px;
-  margin-left: 20px;
-}
-
-.cards-content h3 {
-  color: #252b42;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.1px;
-  margin-left: 20px;
-  margin-top: -8px;
-}
-
-.cards-content p {
-  color: #737373;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-  text-align: start;
-  justify-content: flex-start;
-  margin-left: 22px;
-  margin-top: -8px;
-}
-
-.cards-content i {
-  color: #737373;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-
-.cards-content h6 {
-  color: #737373;
-  margin-top: -172px;
-  margin-left: -180px;
-}
-
-.cards img {
-  height: 300px;
-  width: 330px;
-}
-
-.cardss {
-  background-color: #ffffff;
-  height: 678px;
-}
-
-.cardss img {
-  height: 300px;
-  width: 18px;
-} */
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
-body {
-  /* background: #1f2937;
+.cardd-container {
   display: flex;
+  gap: 25px; /* space between cards */
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
   justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  font-family: 'Inter', sans-serif; */
 }
 
-.card {
+.cardd {
   width: 330px;
-  height: 678px;
-  background: #ffffff;
-  border-radius: 10px;
+  background: #fff;
   overflow: hidden;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
   position: relative;
 }
 
-.card-img {
+.cardd-img {
   position: relative;
-  width: 330px;
-  height: 300px;
 }
 
-.card-img img {
-   width: 330px;
+.cardd-img img {
+  width: 330px;
   height: 300px;
+  object-fit: cover;
+  transform: rotate(0deg);
+  opacity: 1;
   display: block;
 }
 
@@ -484,15 +370,15 @@ body {
   border-radius: 4px;
 }
 
-.card-icons {
+.cardd-icons {
   position: absolute;
   bottom: 10px;
-  right: 10px;
+  right: 100px;
   display: flex;
   gap: 8px;
 }
 
-.card-icons i {
+.cardd-icons i {
   background: #fff;
   padding: 7px;
   border-radius: 50%;
@@ -502,53 +388,74 @@ body {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.card-content {
+.cardd-content {
   padding: 15px;
   position: relative;
 }
 
 .department {
-  color: #0b67e9;
-  font-size: 12px;
-  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #23a6f0;
+  font-size: 13px;
+  font-weight: 700;
   margin-bottom: 4px;
+  width: 155px;
+  height: 24px;
 }
 
 .rating {
   position: absolute;
-  top: 16px;
-  right: 15px;
-  background: #0b67e9;
-  color: #fff;
+  top: 30px;
+  right: 20px;
+  background: #252b42;
+  color: #ffffff;
   font-size: 12px;
   font-weight: 600;
-  border-radius: 12px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 20px;
   padding: 2px 7px;
   display: flex;
   align-items: center;
-  gap: 3px;
+  gap: 5px;
+  padding: 8px;
 }
 
 .rating i {
   font-size: 10px;
+  color: #ffce31;
 }
 
 h3 {
   font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  width: 131px;
+  height: 24px;
   margin: 10px 0 5px;
   color: #333;
 }
 
 .description {
-  font-size: 12px;
-  color: #666;
+  width: 280px;
+  height: 60px;
+  color: #252b42;
   line-height: 1.4;
   margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
 }
 
 .sales {
-  font-size: 12px;
-  color: #555;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #737373;
   margin-bottom: 10px;
 }
 
@@ -559,17 +466,21 @@ h3 {
 
 .price {
   margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
 }
 
 .old-price {
-  text-decoration: line-through;
-  color: #999;
+  color: #bdbdbd;
   font-size: 13px;
   margin-right: 5px;
 }
 
 .new-price {
-  color: #1ab744;
+  color: #40bb15;
   font-weight: 600;
   font-size: 15px;
 }
@@ -578,7 +489,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   font-size: 12px;
-  color: #555;
+  color: #737373;
   margin-bottom: 15px;
 }
 
@@ -586,17 +497,34 @@ h3 {
   margin-right: 4px;
 }
 
-.learn-more {
-  border: 1px solid #0b67e9;
-  color: #0b67e9;
-  background: transparent;
-  padding: 7px 12px;
-  border-radius: 20px;
-  font-size: 13px;
-  font-weight: 600;
-  cursor: pointer;
+.details span:nth-child(1) i {
+  color: #23a6f0;
+}
+
+.details span:nth-child(2) i {
+  color: #e77c40;
+}
+
+.details span:nth-child(3) i {
+  color: #40bb15;
+}
+
+.details span i:hover {
+  transform: scale(1.2);
   transition: 0.3s;
-  width: 100%;
+  opacity: 0.8;
+}
+
+.learn-more {
+  width: 141.14px;
+  height: 44px;
+  gap: 10px;
+  border-radius: 37px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-width: 1px;
 }
 
 .learn-more:hover {
