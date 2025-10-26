@@ -525,6 +525,14 @@ h3 {
   padding-bottom: 10px;
   padding-left: 20px;
   border-width: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #23a6f0;
+  border-color: #23a6f0;
+  background-color: transparent;
 }
 
 .learn-more:hover {
